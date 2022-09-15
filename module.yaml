@@ -1,6 +1,6 @@
 name: gitops-web-terminal
 type: gitops
-description: Module to populate a gitops repo with the resources to provision web-terminal
+description: Module to populate a gitops repo with the resources to provision OpenShift Web Terminal
 tags:
   - tools
   - gitops
