@@ -1,4 +1,3 @@
-name: web-terminal-operator-subscription
 operatorNamespace: openshift-operators
 syncWave: "-2"
 channel: fast

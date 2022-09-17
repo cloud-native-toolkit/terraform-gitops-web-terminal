@@ -1,5 +1,0 @@
-name: devworkspace-operator-subscription
-operatorNamespace: openshift-operators
-syncWave: "-2"
-channel: fast
-installPlan: Automatic
