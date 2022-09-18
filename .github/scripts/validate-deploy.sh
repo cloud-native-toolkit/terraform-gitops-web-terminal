@@ -46,9 +46,7 @@ set -e
 
 validate_gitops_content "${NAMESPACE}" "${LAYER}" "${SERVER_NAME}" "${TYPE}" "${COMPONENT_NAME}" "values.yaml"
 
-check_k8s_namespace "${NAMESPACE}"
-
-#check_k8s_resource "${NAMESPACE}" "deployment" "${COMPONENT_NAME}"
+check_k8s_resource openshift-operators "deployment" "web-terminal-controller"
 
 cd ..
 rm -rf .testrepo

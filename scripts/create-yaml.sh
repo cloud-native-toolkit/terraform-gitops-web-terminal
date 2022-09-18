@@ -10,8 +10,5 @@ VALUES_FILE="values.yaml"
 
 mkdir -p "${DEST_DIR}"
 cp -R "${CHART_DIR}"/* "${DEST_DIR}"
-if [[ -n "${VALUES_FILE}" ]] && [[ -n "${VALUES_CONTENT}" ]]; then
-  echo "${VALUES_CONTENT}" > "${DEST_DIR}/${VALUES_FILE}"
-fi
 
 find "${DEST_DIR}" -name "*"

@@ -12,6 +12,6 @@ metadata:
 spec:
     channel: {{ .Values.channel }}
     installPlanApproval: {{ .Values.installPlan }}
-    name: web-terminal-operator
+    name: web-terminal
     source: redhat-operators
     sourceNamespace: openshift-marketplace
